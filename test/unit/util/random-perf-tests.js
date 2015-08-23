@@ -11,8 +11,8 @@ describe('Random - Perf Tests', function() {
 
   describe('randomAsciiString', function() {
     it('randomAsciiString', function() {
-      var threshold = 200;
-      var cnt = 10000;
+      var threshold = 70;
+      var cnt = 1000;
       var time = testHelper.measureFunctionTime(function() {
         ru.random.randomAsciiString(1000);
       }, cnt);
