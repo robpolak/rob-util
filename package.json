@@ -1,0 +1,23 @@
+{
+  "name": "rob-util",
+  "version": "0.0.1",
+  "description": "Collection of popular utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec -u bdd --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robpolak/rob-util.git"
+  },
+  "author": "Rob Polak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robpolak/rob-util/issues"
+  },
+  "homepage": "https://github.com/robpolak/rob-util",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  }
+}
