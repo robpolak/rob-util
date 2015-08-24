@@ -1,4 +1,4 @@
-describe('Comparer Tests', function() {
+describe('util/random.js', function() {
   var ru = require('../../../lib/rob-util');
   var expect = require('chai').expect;
 

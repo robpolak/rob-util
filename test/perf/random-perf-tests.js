@@ -1,4 +1,4 @@
-describe('Random - Perf Tests', function() {
+describe('util/random.js - Perf Tests', function() {
   var ru = require('../../lib/rob-util');
   var expect = require('chai').expect;
   var testHelper = require('../testHelper');
