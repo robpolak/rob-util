@@ -1,7 +1,7 @@
 describe('util/random.js - Perf Tests', function() {
-  var ru = require('../../lib/rob-util');
+  var ru = require('../../../lib/rob-util');
   var expect = require('chai').expect;
-  var testHelper = require('../testHelper');
+  var testHelper = require('../../testHelper');
 
   beforeEach(function () {
   });
@@ -16,7 +16,7 @@ describe('util/random.js - Perf Tests', function() {
       var time = testHelper.measureFunctionTime(function() {
         ru.random.randomAsciiString(1000);
       }, cnt);
-      console.log('randomAsciiString: [ ' + time + 'ms ]');
+      console.log('randomAsciiString: [ ' + time + 'ms ] \n');
       expect(time).to.be.below(threshold);
     });
 
@@ -26,7 +26,7 @@ describe('util/random.js - Perf Tests', function() {
       var time = testHelper.measureFunctionTime(function() {
         ru.random.randomAsciiString(1000);
       }, cnt);
-      console.log('randomAsciiString: [ ' + time + 'ms ]');
+      console.log('randomAsciiString: [ ' + time + 'ms ] \n');
       expect(time).to.be.below(threshold);
     });
 
